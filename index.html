@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(193, 193, 193, 0.195);
+            border-radius: 4px;
+            padding: 8px;
+            width: inherit;
+            
+        }
+        .profile{
+            width: 50px;
+            height: 50px;
+            margin-right: 8px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50px;
+
+        }
+        .row {
+            display: flex;
+        }
+        
+        .title-flex-box {
+            padding-top: 8px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .title,.stats {
+            font-weight: 700;
+            
+        }
+        .stats {
+            margin-top: 4px;
+            margin-bottom: 6px;
+        }
+        .time, .message {
+            color: grey;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+
+        <div style="display: flex;
+        flex-direction: row;">
+            <div class="row" style="
+            display: flex;
+            align-items: center;
+            flex:1;">
+
+                <div class="profile">
+                    <img src="profiles/cat.jpg" alt="">
+                </div>
+                <div>
+                    <div class="title-flex-box">
+                        <p class="title">Chewy Promotions </p>
+                        <p class="time">9:00 AM</p>
+                    </div>
+                    
+                    <p class="stats">Biggest sales of the year!</p>
+                    <p class="message">Hey there! We're writing to tell you about our...</p>
+                </div>
+        </div>    
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;">
+            <div class="row" style="
+            display: flex;
+            align-items: center;
+            flex:1;">
+
+                <div class="profile">
+                    <img src="profiles/dog.jpg" alt="">
+                </div>
+                <div>
+                    <div class="title-flex-box">
+                        <p class="title">Best Buy</p>
+                        <p class="time">12:32 PM</p>
+                    </div>
+                    
+                    <p class="stats">Biggest sales of the year!</p>
+                    <p class="message">Thank you for shopping at Best Buy, here is...</p>
+                </div>
+        </div>    
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;">
+            <div class="row" style="
+            display: flex;
+            align-items: center;
+            flex:1;">
+
+                <div class="profile">
+                    <img src="profiles/cat2.jpg" alt="">
+                </div>
+                <div>
+                    <div class="title-flex-box">
+                        <p class="title">Netflix </p>
+                        <p class="time">9:00 AM</p>
+                    </div>
+                    
+                    <p class="stats">Here's what's coming soon to Netflix</p>
+                    <p class="message">Brand new movies and shows, old favorites...</p>
+                </div>
+        </div>    
+        </div>
+    </div>
+</body>
+</html>
