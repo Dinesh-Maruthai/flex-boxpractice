@@ -4,64 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            height: 3000px;
-            
-        }
-        .side-bar {
-            background-color: green;
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            width: 50px;
-        }
-        .overlay{
-            display: flex;
-            position: fixed;
-            background-color: rgba(0, 0, 0, 1);
-            
-        }
-        .module{
-            position: fixed;
-            top: 50%;
-            left: 50px;
-            height: 200px;
-            width: 200px;
-            color: rgb(178, 92, 92);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgb(229, 198, 198);
-        }
-        .module1{
-            position: fixed;
-            top: 56px;
-            left: 70px;
-            height: 200px;
-            width: 200px;
-            color: rgb(178, 92, 92);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgb(126, 105, 105);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="side-bar">
-        <p>sidebar</p>
-    </div>
-    <div class="overlay">
-        <div class="module">
-            <p class="title">This is moduke</p>
+    <style>
+        .left-sidebar
+        {
+            background-color: rgb(192, 186, 186);
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+        
+        }
+    </style>
+    <div class="left-sidebar">
+        <div class="left-section">
+            <div style="display: flex;
+            flex-direction: row;">
+                <div class="row" style="
+                display: flex;
+                align-items: center;
+                flex:1;">
+    
+                    <div class="profile">
+                        <img src="profiles/dog.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="title-flex-box">
+                            <p class="title">Best Buy</p>
+                            <p class="time">12:32 PM</p>
+                        </div>
+                        
+                        <p class="stats">Biggest sales of the year!</p>
+                        <p class="message">Thank you for shopping at Best Buy, here is...</p>
+                    </div>
+            </div>    
+            </div>
+        </div>
+        <div class="left-section">
+            <div style="display: flex;
+            flex-direction: row;">
+                <div class="row" style="
+                display: flex;
+                align-items: center;
+                flex:1;">
+    
+                    <div class="profile">
+                        <img src="profiles/dog.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="title-flex-box">
+                            <p class="title">Best Buy</p>
+                            <p class="time">12:32 PM</p>
+                        </div>
+                        
+                        <p class="stats">Biggest sales of the year!</p>
+                        <p class="message">Thank you for shopping at Best Buy, here is...</p>
+                    </div>
+            </div>    
+            </div>
+        </div>
+        <div class="left-section">
+            <div style="display: flex;
+            flex-direction: row;">
+                <div class="row" style="
+                display: flex;
+                align-items: center;
+                flex:1;">
+    
+                    <div class="profile">
+                        <img src="profiles/dog.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="title-flex-box">
+                            <p class="title">Best Buy</p>
+                            <p class="time">12:32 PM</p>
+                        </div>
+                        
+                        <p class="stats">Biggest sales of the year!</p>
+                        <p class="message">Thank you for shopping at Best Buy, here is...</p>
+                    </div>
+            </div>    
+            </div>
         </div>
     </div>
-    <div class="overlay1">
-        <div class="module1">
-            <p class="title">This is moduke</p>
-        </div>
-    </div>
+    
 </body>
 </html>
